@@ -1,46 +1,65 @@
-"use strict"; //treate all JS code as newer version
+"use strict"; // treat all JS code as newer version
 
-//alert("AmanRAj"); we are using nodeJS not a broweser 
+// alert( 3 + 3) // we are using nodejs, not browser
 
-//premitivs Datatype
-    //7 type:
-        // Number,String,Boolean,null,undefined,Symbol,Bigint
-//Non Primitive(Refrence Type)
-    //Array,object,functions
+console.log(3 
+    +
+     3) // code readability should be high
 
-
+console.log("Hitesh")
 
 
+let name = "hitesh"
+let age = 18
+let isLoggedInn = false
+let state;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// number => range = 2 to Power 53
-// bigint used for big number
-// string=>""
+// number => 2 to power 53
+// bigint
+// string => ""
 // boolean => true/false
-// null =>it is a datatype as well as it's a standalone value
-// undefined => variable is declered but type is undefined
-// symbol => use for unique representation
+// null => standalone value
+// undefined => 
+// symbol => unique
 
-//object
 
-console.log(typeof "aman");//string
-console.log(typeof null);//object
-console.log(typeof undefined);//undefined
+// object
 
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object
+//  Primitive
+
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+
+const score = 100
+const scoreValue = 100.3
+
+const isLoggedIn = false
+const outsideTemp = null
+let userEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
+
+// const bigNumber = 3456543576654356754n
+
+
+
+// Reference (Non primitive)
+
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "hitesh",
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof anotherId);
 
