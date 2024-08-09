@@ -63,3 +63,33 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
+
+//************************* Memory*************************
+//Type of memory
+    // stack :-used in (Primitive datatypes)
+    // Heap  :- used in (Non-primitive datatypes)
+
+
+//Example of stack
+
+let Myname="Aman"; //Aman
+
+let Oname=Myname;//we just assign a copy of Myname variable;
+Oname="Anshu";//Anshu
+
+console.table([Myname,Oname]);
+
+//Example of heap
+
+let user={
+    name:"Aman",
+    email:"aman@gmail.com",
+}
+
+let user2=user //just give the same refrence 
+
+user2.email="anshu@gmail.com"
+
+console.table([user.email,user2.email]);
+
+// Hear Output is anshu@gmail.com for both becouse both the user refer the same heap memory 
