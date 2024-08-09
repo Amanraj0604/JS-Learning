@@ -3,6 +3,31 @@
 //alert("AmanRAj"); we are using nodeJS not a broweser 
 
 //premitivs Datatype
+    //7 type:
+        // Number,String,Boolean,null,undefined,Symbol,Bigint
+//Non Primitive(Refrence Type)
+    //Array,object,functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // number => range = 2 to Power 53
 // bigint used for big number
