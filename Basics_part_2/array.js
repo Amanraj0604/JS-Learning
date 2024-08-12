@@ -1,4 +1,4 @@
-//Array is an orderd collection od data either it's primitive or objects dependa on     multiple language.
+//Array is an orderd collection of data either it's primitive or objects dependa on     multiple language.
 //Array is use to store multiple values under a single variable.
 const arr1=[1,2,3,4,5,6,7,8,9];
 // Note:-1. Java Script arrays are resizeble and contains multiple type of elements.
